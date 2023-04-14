@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Star Wars';
+    src: url(../assets/starjedi/Starjedi.ttf);
+  }
+.header {
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    margin: 1px;
+    font-family: 'Star Wars' !important;
+        src: url(../assets/starjedi/Starjedi.ttf);
+    background-image: url(../assets/img/Heading\ bg\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.subheader{
+    font-size: large;
+    color: white;
+    font-family: 'Star Wars';
+}
+.mainbody{
+    left: 12%;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 75%;
+    position:absolute;
+    font-family: Arial;
+}
+.toc{
+    font-style: bold;
+    text-align: left;
+    background-color: black;
+    position: absolute;
+    top: 52%;
+    color: white;
+    left:35%
+}
+.mainbody2{
+    left: 12%;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 75%;
+    position:absolute;
+    top: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    left: 32%;
+    top: 155%;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+}
+.mainbody3{
+    left: 12%;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 75%;
+    position:absolute;
+    top: 190%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video2{
+    position:absolute;
+    top: 255%;
+    left: 32%;
+    text-align: center;
+}
+.outro{
+    left: 12%;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 75%;
+    position:absolute;
+    top: 290%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rmenu{
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    background-color: black;
+    right: .5%;
+    width: 10%;
+    height:274.5%;
+    border: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lmenu{
+    left: 0;
+    width: 12%;
+    max-height: fit-content;
+    top: 0;
+    z-index: 1;
+}
+.footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+.bg{
+    background-image: url(../assets/img/SWbackground.jpg);
+}
+.credit{
+    bottom: 2px;
+    left: 2px;
+    position: fixed;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.swfont{
+    font-family: 'Star Jedi', 'Franklin Gothic Medium'
+}
+img{
+    display: block; /*will make every image blocked*/ 
+}
+.newimg_img{
+    display: block;
+    width: 100%;
+    border: none;
+}
+a:visited{
+    color:magenta
+}
+a::before{
+    color: cyan;
+}
+.common{
+    color: white;
+    font-family: serif;
+}
+.itallic{
+    font-style: italic;
+}
+.tableau{
+    left: 20%;
+    text-align: center;
+}
+.theader{
+    text-align: center;
+}
+.miniheader{
+    text-align:center;
+    font-style: bold;
+}
